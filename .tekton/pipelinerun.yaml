@@ -74,6 +74,7 @@ spec:
               script: |
                 echo $(params.repo_url)
                 echo $(params.revision)
+                sleep 60
                 exit 0
   workspaces:
     - name: source
