@@ -27,5 +27,5 @@ spec:
               script: |
                 echo $(params.repo_url)
                 echo $(params.revision)
-                sleep 60
+                sleep 600
                 exit 0
